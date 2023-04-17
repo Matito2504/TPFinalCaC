@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+}
+header{
+    background-color: #B61010;
+    margin: 0px;
+    }
+
+header p{
+    margin: 0px;
+    padding: 20px 30px;
+    font-size: 1.45;
+    float: center;   
+}
+
+header .container{
+    display:flex
+    flex-direction column;
+    margin: 0px;
+    align-content: center;
+    
+}
+span img{
+    height: 6em;
+}
+
+header nav{
+    display: flex;
+    float: right;
+    padding: 70px;
+    margin: 0%;
+    padding-bottom: 60px;
+    
+}
+
+header a{
+    padding-bottom: 5px 40px;
+    font-weight:bolder;
+    color: rgb(255, 251, 247);
+    margin-right: 35px;    
+}
+
+header a:hover{ 
+    color: rgb(2, 2, 2);       
+}
+
+#Presentacion {
+    background: url(./img/delicia3.png) no-repeat center center ;
+    background-size: cover;
+    height: 600px;
+    padding: 10px;
+}
+.presentacion{
+    margin-top: 0px;
+    display: inline-block;
+    grid-column: 1/-1;
+}
+.titulo-presentacion{
+    font-size: 7em;
+    text-align: center;
+    color: white;
+    
+}
+/*seccion sobre nosotros*/
+
+#sobre-nosotros{
+    background-color: #B61010;
+    padding: 20px;
+    margin: 0;
+}
+.conteiner { 
+    display: flex;
+    background-color: white;
+    grid-column: 1/-1;
+    padding: 40 px; 
+    overflow: hidden;
+     
+}   
+.container-titulo{
+    display: flex;
+    padding: 25px 40px; 
+    flex-direction: column; 
+    width: 40%;
+    background-color:white;
+    justify-content: center;
+    text-align: center;
+    border-right: 5px solid#B61010; 
+   
+}
+.container-texto{
+    padding: 60px;
+    background-color:white;
+    width: 50%;
+    justify-content: center;
+    
+    
+}
+.titulo1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-top: 0; 
+    border-top: 3px solid #B61010;
+    border-left: 1px solid #B61010;
+    border-right: 1px solid #B61010;
+}
+.titulo2{
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 0;
+    border-bottom: 3px solid #B61010;
+    border-left: 1px solid #B61010;
+    border-right: 1px solid #B61010;
+}
+.container-parrafo{
+    font-family: 'Dongle', sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    
+}
+.img-titulo{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto;    
+}
+.container-productos{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+.productos-titulo{
+    
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1,5rem;
+    display: inline-block;
+    padding: auto;  
+      
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-left: 40px;
+    flex-wrap: wrap;   
+}
+div.galeria :hover{
+    transform: rotate(-2deg);
+}
+
+.container-img{
+    width: 30%;
+    height: 30%; 
+    margin-bottom: 0;  
+} 
+
+.hamburguesa{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0 #050404;  
+    margin-bottom: 0;
+}
+.img-pie{
+    box-shadow: 0px 2px 4px 0 #050404;
+    margin-top: 0;
+    height: 100%;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
