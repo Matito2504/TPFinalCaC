@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,86 +11,138 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-               <span> <img src="img/Circle Badge Burger Food Logo.png"></span>
-                <nav class="conteiner-nav">
-                 <ul>
-                     <i class="fa-brands fa-instagram"></i>
-                     <i class="fa-brands fa-facebook"></i>
-                     <i class="fa-brands fa-square-whatsapp"></i>
-                     <i class="fa-sharp fa-solid fa-envelope"></i>
-                 </ul>
-                 <ul>
-                    <a href="#">Inicio</a>
-                    <a href="#">Menú</a>
-                    <a href="locales.html">Locales</a>
-                    <a href="#">Contacto</a>
-                 </ul>
-                </nav>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/Circle Badge Burger Food Logo.png" alt="logo marca">
         </div>
-    </header>  
-    <main>
-    
+        <input type="checkbox" id="menu-check" class="menu-check"></input>
+        <label for="menu-check" class="checkbtn">
+            <span id="menu-abrir"><i class="fa-solid fa-bars"></i></span>
+            <span id="menu-cerrar">X</span>
+        </label>
+        <nav class="nav-bar">
+            <ul class="nav-link" id="nav-link">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Locales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <ul class="nav-redes">
+                <li> <i class="fa-brands fa-instagram"></i></li>
+                <li> <i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-square-whatsapp"></i></li>
+                <li> <i class="fa-sharp fa-solid fa-envelope"></i></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Seccion de Presentacion -->
     <section id="Presentacion">
-     <div class="grid">
-         <div class="presentacion">
-             <p class="titulo-presentacion">Las más ricas del condado</p>
-         </div>
-     </div>
-    </section> 
+        <div class="grid">
+            <div class="presentacion">
+                <p class="titulo-presentacion">Las más ricas del condado</p>
+            </div>
+        </div>
+    </section>
 
     <section id="sobre-nosotros">
-        <div class=> 
-         <div class="conteiner">
-            <div class="container-titulo">
-                 <h3 class="titulo1">Que Delicia!</h3>
-                 <img src="./img/delicia5.png" alt="que delicia!" class="img-titulo">
-                 <h3 class="titulo2">Tu Hamburgueseria</h3>
+        <div class=>
+            <div class="conteiner">
+                <div class="container-titulo">
+                    <h3 class="titulo1">Que Delicia!</h3>
+                    <img src="./img/delicia5.png" alt="que delicia!" class="img-titulo">
+                    <h3 class="titulo2">Tu Hamburgueseria</h3>
+                </div>
+                <div class="container-texto">
+                    <p class="container-parrafo">Bienvenidos a nuestra hamburguesería, donde combinamos la mejor
+                        carne de Argentina con ingredientes frescos y sabrosos para ofrecer una experiencia única y
+                        deliciosa a nuestros clientes. Nos apasiona la comida y nos enorgullece utilizar
+                        ingredientes de calidad para crear nuestras hamburguesas, siempre buscando la combinación
+                        perfecta de sabores y texturas. Desde la selección de la carne hasta la elección de los
+                        toppings y salsas, cuidamos cada detalle para asegurarnos de que cada hamburguesa sea una
+                        experiencia memorable.
+                        Además, nos preocupamos por el medio ambiente y la comunidad. Por eso, utilizamos
+                        ingredientes locales y sostenibles siempre que es posible, y trabajamos con proveedores que
+                        comparten nuestros valores éticos. En nuestra hamburguesería, queremos que nuestros clientes
+                        se sientan como en casa y disfruten de la mejor comida en un ambiente relajado y amigable.
+                        Esperamos verte pronto y hacerte parte de la familia de nuestra hamburguesería.</p>
+                </div>
             </div>
-             <div class="container-texto">
-                <p class="container-parrafo">Bienvenidos a nuestra hamburguesería, donde combinamos la mejor carne de Argentina con ingredientes frescos y sabrosos para ofrecer una experiencia única y deliciosa a nuestros clientes. Nos apasiona la comida y nos enorgullece utilizar ingredientes de calidad para crear nuestras hamburguesas, siempre buscando la combinación perfecta de sabores y texturas. Desde la selección de la carne hasta la elección de los toppings y salsas, cuidamos cada detalle para asegurarnos de que cada hamburguesa sea una experiencia memorable.
-                   Además, nos preocupamos por el medio ambiente y la comunidad. Por eso, utilizamos ingredientes locales y sostenibles siempre que es posible, y trabajamos con proveedores que comparten nuestros valores éticos. En nuestra hamburguesería, queremos que nuestros clientes se sientan como en casa y disfruten de la mejor comida en un ambiente relajado y amigable. Esperamos verte pronto y hacerte parte de la familia de nuestra hamburguesería.</p>
-             </div>
-          </div>
+        </div>
+    </section>
+    <!-- Seccion de Productos -->
+    <section id="productos">
+        <div class="grid">
+            <div class="container-productos">
+                <div class="productos-titulo">
+                    <h2 class="titulo">Son Irresistibles</h2>
+                </div>
+                <div class="galeria">
+                    <div class="container-img">
+                        <img src="./img/hamburguesa.png" alt="img" class="hamburguesa">
+                        <div class="img-pie">
+                            <h5 class="texto-h">"La Fiera": una hamburguesa con doble carne, queso cheddar, cebolla
+                                caramelizada, jalapeños y salsa BBQ picante.</h5>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./img/hamburguesa1.png" alt="img" class="hamburguesa">
+                        <div class="img-pie">
+                            <h5 class="texto-h">"La Veggie Delight": una hamburguesa vegetariana con una patty de
+                                garbanzos, queso feta, espinacas frescas, tomate y mayonesa de ajo.</h5>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./img/hamburguesa2.png" alt="img" class="hamburguesa">
+                        <div class="img-pie">
+                            <h5 class="texto-h">"La Súper Hawaiana": una hamburguesa con carne de res, queso
+                                mozzarella, piña asada, jamón, lechuga, tomate y salsa de teriyaki.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+   
+    <!-- Seccion de api -->
+    <section class="container-section">
+        <div class="container-titulo">
+            <h1 class="titulo">Ofertas del Día</h1>
+        </div>
+        <div id="container-api">
+            
+        </div>
+
+
+
+
+
+    </section>
+
+    <!-- Seccion de footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="logo">
+                <img class="img" src="./img/Circle Badge Burger Food Logo.png" alt="">
+            </div>
+            <h2 class="seguinos">Seguinos en</h2>
+            <div class="redes_sociales">
+                <a href="#" class="fa fa-facebook fa-2x"></a>
+                <a href="#" class="fa fa-instagram fa-2x"></a>
+                <a href="#" class="fa fa-youtube fa-2x"></a>
+            </div>
         </div>
     </section>
 
-    <section id="productos">
- <div class="grid">
-    <div class="container-productos">
-            <div class="productos-titulo">
-                <h2 class="titulo">Son Irresistibles</h2>
-            </div>
-            <div class="galeria">
-            <div class="container-img">
-                <img src="./img/hamburguesa.png" alt="img" class="hamburguesa">
-                <div class="img-pie">
-                    <h5 class="texto-h">"La Fiera": una hamburguesa con doble carne, queso cheddar, cebolla caramelizada, jalapeños y salsa BBQ picante.</h5>
-                </div>
-            </div>
-            <div class="container-img">
-                <img src="./img/hamburguesa1.png" alt="img"class="hamburguesa">
-                <div class="img-pie">
-                    <h5 class="texto-h">"La Veggie Delight": una hamburguesa vegetariana con una patty de garbanzos, queso feta, espinacas frescas, tomate y mayonesa de ajo.</h5>
-                </div>
-            </div>
-            <div class="container-img">
-                <img src="./img/hamburguesa2.png" alt="img" class="hamburguesa">
-                <div class="img-pie">
-                    <h5 class="texto-h">"La Súper Hawaiana": una hamburguesa con carne de res, queso mozzarella, piña asada, jamón, lechuga, tomate y salsa de teriyaki.</h5>
-                </div>
-            </div>
-         </div>
-     </div>
-    </div>
 
-
-
-    </section>
-
-</main>
     <script src="https://kit.fontawesome.com/758589f172.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
