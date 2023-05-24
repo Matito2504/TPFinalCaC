@@ -552,11 +552,12 @@ div.galeria :hover {
         display: flex;
         padding: 25px 40px;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         background-color: white;
         justify-content: center;
         text-align: center;
         border-bottom: 5px solid#B61010;
+        border-right: none;
 
     }
 
@@ -608,6 +609,10 @@ div.galeria :hover {
         width: 80%;
         justify-content: center;
         align-items: center;
+    }
+
+    .tarjeta img{
+        width: 90%;
     }
 
 
