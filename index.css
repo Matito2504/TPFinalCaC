@@ -18,6 +18,7 @@ body {
 
 .header {
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
     background-color: #B61010;
     display: flex;
     justify-content: space-between;
@@ -99,7 +100,7 @@ body {
 
 
 #Presentacion {
-    background: url(./img/delicia3.png) no-repeat center center;
+    background: url(./img-index/delicia3.png) no-repeat center center;
     background-size: cover;
     height: 600px;
     padding: 10px;
@@ -115,6 +116,7 @@ body {
     font-size: 7em;
     text-align: center;
     color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 
 }
 
@@ -256,6 +258,7 @@ div.galeria :hover {
     border-right: none;
     border-top: 2px solid #B61010;
     border-bottom: 2px solid #B61010; 
+    margin-bottom: 20px;
  }
  
 
@@ -264,6 +267,8 @@ div.galeria :hover {
     justify-content:space-between;
     flex-direction: row;
     padding: 20px;
+    background: url("Imágenes/Back\ BN.jpg") no-repeat fixed;
+    background-size: cover;
     
  }
 
@@ -274,14 +279,28 @@ div.galeria :hover {
     align-items: center;
     border: 2px solid #B61010;
     margin:20px;
-    height: 30%;
+    width: 30%;
+    background-color: white;
+ }
+
+ .tarjeta-titulo{
+    background-color: white;
+    display:block;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
  }
 
  .titulo-oferta{
     font-size: 2em;
     text-align: center;
-    
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
  }
+
+ 
  
     
 
@@ -387,6 +406,20 @@ div.galeria :hover {
         width: 50%;
         justify-content: center;
     }
+    
+    /*section api*/
+   
+    #container-api{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;  
+    }
+    .tarjeta{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     /*section footer*/
 
@@ -563,6 +596,20 @@ div.galeria :hover {
         height: 30%;
 
     }
+
+    /*seccion api*/
+
+    #container-api{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;  
+    }
+    .tarjeta{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
 
      
     /*seccion footer*/

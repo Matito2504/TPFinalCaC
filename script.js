@@ -21,18 +21,18 @@ method: 'GET',
     mostrar.innerHTML =
     `<div class="tarjeta">
       <img src="${data[10].images[0].sm}"></img><br>
-      <h3 class"titulo-oferta">${data[10].name}</h3><br>
-      <h4 class"titulo-oferta">USD:${data[10].price}</h4><br>
+      <div class="tarjeta-titulo"> <h3 class"titulo-oferta">${data[10].name}</h3><br>
+      <h4 class"titulo-oferta">USD:${data[10].price}</h4></div><br>
     </div>
     <div class="tarjeta">
       <img src="${data[8].images[0].sm}"></img><br>
-      <h3 class"titulo-oferta"> ${data[8].name}</h3><br>
-      <h4 class"titulo-oferta">USD:${data[8].price}</h4><br>
+      <div class="tarjeta-titulo"><h3 class"titulo-oferta"> ${data[8].name}</h3><br>
+      <h4 class"titulo-oferta">USD:${data[8].price}</h4></div><br>
     </div>
     <div class="tarjeta">
       <img src="${data[14].images[0].sm}"></img><br>
-      <h3 class"titulo-oferta"> ${data[14].name}</h3><br>
-      <h4 class"titulo-oferta">USD: ${data[14].price}</h4><br>
+      <div class="tarjeta-titulo"><h3 class"titulo-oferta"> ${data[14].name}</h3><br>
+      <h4 class"titulo-oferta">USD: ${data[14].price}</h4></div><br>
     </div>`
 
   }) 
