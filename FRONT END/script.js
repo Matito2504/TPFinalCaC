@@ -1,9 +1,9 @@
 
 const options = {
-method: 'GET',
+	method: 'GET',
 	headers: {
-	'X-RapidAPI-Key': '8fb58dfa26mshbf63f3a81d03a68p1ff0e6jsne2152c798c5f',
-	'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
+		'X-RapidAPI-Key': 'fcc6c19c78msh1de2a83824e53d8p1b077cjsn0e0fd08e0778',
+		'X-RapidAPI-Host': 'burgers-hub.p.rapidapi.com'
 	}
 };
 
