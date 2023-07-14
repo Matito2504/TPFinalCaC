@@ -126,6 +126,9 @@ body {
     background-color: #B61010;
     padding: 20px;
     margin: 0;
+    display: flex;
+    
+
 }
 
 .conteiner {
@@ -355,6 +358,7 @@ div.galeria :hover {
 .redes_sociales a:hover {
     color: rgb(240, 132, 132);
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .header {
